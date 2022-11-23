@@ -1,0 +1,163 @@
+#include <iostream>
+using namespace std;
+
+
+
+
+
+
+
+
+
+
+// CALCULATING AREA USING PURE VIRTUAL FUNCTION
+// class polygon{
+//     protected:
+// int radius;
+// int length;
+// int breadth;
+// int side;
+// public:
+// virtual void getdata()=0;
+// virtual  void areaofcircle()=0;
+// virtual void areaofrect()=0;
+// virtual void areaofsquare()=0;
+
+// };
+// class firstarea:public polygon{
+//     public:
+//     void getdata(){
+//         cin>>radius;
+//         cin>>length;
+//         cin>>breadth;
+//         cin>>side;
+//     }
+//     void  areaofcircle(){
+//         float ans = 2*3.14*(radius*radius);
+//         cout<<"Printing area of circle "<<ans<<endl;
+//     }
+//      void  areaofrect(){
+//         float ans = length*breadth;
+//         cout<<"Printing area of rectangle "<<ans<<endl;
+//     }
+//      void  areaofsquare(){
+//         float ans =side*side;
+//         cout<<"Printing area of square "<<ans<<endl;
+//     }
+// };
+
+
+
+
+// PRINTING AREA OF DIFFERENT FIGURE WITHOUT VIRTUAL FUNTION
+
+// class area{
+//     protected:
+// int radius;
+// int length;
+// int breadth;
+// int side;
+// public:
+// virtual void getdata();
+// virtual  void areaofcircle();
+// virtual void areaofrect();
+// virtual void areaofsquare();
+// };
+// class firstarea:public area{
+//     public:
+//     void getdata(){
+//         cin>>radius;
+//         cin>>length;
+//         cin>>breadth;
+//         cin>>side;
+//     }
+//     void  areaofcircle(){
+//         float ans = 2*3.14*(radius*radius);
+//         cout<<"Printing area of circle "<<ans<<endl;
+//     }
+//      void  areaofrect(){
+//         float ans = length*breadth;
+//         cout<<"Printing area of rectangle "<<ans<<endl;
+//     }
+//      void  areaofsquare(){
+//         float ans =side*side;
+//         cout<<"Printing area of square "<<ans<<endl;
+//     }
+// };
+
+
+
+// PRINTING SUM USING SUM 
+
+// class temp{
+// int a;
+// int b;
+// friend class tem ;
+
+// };
+//  class tem:public temp{
+//      public:
+//     void getdata(){
+//         cin>>a;
+//         cin>>b;
+//     }
+//     void print(){
+//         int sum = a+b;
+//         cout<<sum<<endl;
+//     }
+// };
+
+//EXPLANING VIRTUAL FUNCTION 
+
+// class vir{
+//     protected:
+// int n;
+// int m;
+// public:
+// virtual void getdata()=0;
+// virtual void sum()=0;
+// };
+// class su : public vir{
+// public:
+// void getdata(){
+//     cin>>n;
+//     cin>>m ;
+// }
+// void sum(){
+//     int ans = n+m;
+//     cout<<ans<<endl;
+// }
+
+// };
+
+int main() {
+    // VIRTUAL
+//  vir *baseclass;
+//  su abstr;
+//  baseclass = &abstr;
+//  baseclass->getdata();
+//  baseclass->sum();
+
+// tem t;
+// t.getdata();
+// t.print();
+
+// area *a;
+// firstarea f;
+// a = &f;
+// a->getdata();
+// a->areaofcircle();
+// a->areaofrect();
+// a->areaofsquare();
+
+
+// polygon *a;
+// firstarea f;
+// a = &f;
+// a->getdata();
+// a->areaofcircle();
+// a->areaofrect();
+// a->areaofsquare();
+
+
+}
